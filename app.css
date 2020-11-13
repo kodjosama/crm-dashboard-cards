@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background-color: #f5f8fb;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.card {
+  width: 300px;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background-color: #fff;
+}
+
+.card .icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.icons .icon {
+  width: 3rem;
+}
+
+.icons .icon svg {
+  color: #fff;
+}
+
+.icon-block {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #7f7ffb;
+}
+
+.icons .icon.bg-gray-600 {
+  width: 1.5rem;
+}
+
+.icons .icon.bg-gray-600 svg {
+  color: #718096;
+}
+
+.card .title {
+  color: #2a4365;
+  font-size: 1.25rem;
+}
+
+.card .subtitle {
+  font-weight: lighter;
+}
+
+.card .badges {
+  display: flex;
+  align-items: center;
+}
+
+.badges .badge {
+  display: flex;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 1rem;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  background-color: rgba(127, 131, 242, 0.5);
+}
+
+.badges .badge.no-bg {
+  color: #718096;
+  background-color: transparent;
+}
+
+.badges .badge svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #7f7ffb;
+}
+.card .counts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .counts > span {
+  font-size: 2rem;
+  color: #7f7ffb;
+}
+
+.counts .avatars {
+  display: flex;
+  align-items: center;
+}
+
+.counts .avatars img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: -0.5rem;
+  border-radius: 9999%;
+  border: 1px solid #fff;
+  background-color: #7f7ffb;
+}
+
+.counts .avatars span {
+  margin-left: 0.25rem;
+}
